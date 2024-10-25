@@ -1,0 +1,12 @@
+{
+    "name": "MathTools",
+    "version": "0.0.1",
+    "description": "提供將數值四捨五入至小數點後兩位的積木。",
+    "dependencies": {},
+    "files": [
+        "main.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ]
+}
