@@ -12,4 +12,16 @@ namespace mathTools {
     export function toTwoDecimalPlaces(num: number): number {
         return Math.round(num * 100) / 100;
     }
+	
+    /**
+     * 將數字顯示為小數點後兩位
+     * @param value 數字值
+	 * @param k 位數
+     */	
+	//% block="將數值 %value 保留小數點後 %k 位數"
+    export function toFixedDecimal(value: number, k: number): number {
+        return Math.roundWithPrecision(value, k);
+    }
+
+	
 }
