@@ -15,7 +15,7 @@
 ```typescript
 let roundedValue = mathTools.toTwoDecimalPlaces(3.14159);
 basic.showNumber(roundedValue);
-```typescript
+```
 
 ## 積木
 
@@ -34,3 +34,10 @@ mathTools.toFixedDecimal(value: number, k: number): number
 
 value：輸入數值（類型：number）
 k：保留的小數位數（類型：number）
+```
+
+### 程式範例
+```typescript
+let roundedValue = mathTools.toFixedDecimal(3.1415926, 1);
+basic.showNumber(roundedValue);
+```
