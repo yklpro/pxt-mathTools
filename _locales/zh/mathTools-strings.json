@@ -1,6 +1,9 @@
-
 {
-    "toTwoDecimalPlaces": {
-        "block": "將 $num 四捨五入至小數點後兩位"
+    "mathTools": {
+        "name": "MathTools",
+        "description": "提供數學相關的積木功能，例如四捨五入與保留小數點。",
+        "toTwoDecimalPlaces": "將 $num 四捨五入至小數點後兩位",
+        "toFixedDecimal": "將數值 %value 保留小數點後 %k 位數"
     }
 }
+
