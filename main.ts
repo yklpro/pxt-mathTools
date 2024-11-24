@@ -14,7 +14,7 @@ namespace mathTools {
     }
 	
     /**
-     * 將數字顯示為小數點後兩位
+     * 將數字顯示為小數點後 k 位
      * @param value 數字值
 	 * @param k 位數
      */	
