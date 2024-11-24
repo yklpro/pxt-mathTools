@@ -15,6 +15,7 @@
 ```typescript
 let roundedValue = mathTools.toTwoDecimalPlaces(3.14159);
 basic.showNumber(roundedValue);
+'''
 
 ## 積木
 
