@@ -16,10 +16,12 @@
 let roundedValue = mathTools.toTwoDecimalPlaces(3.14159);
 basic.showNumber(roundedValue);
 
+## 積木
 
+### 將數值四捨五入至小數點後 k
 mathTools.toFixedDecimal(value: number, k: number): number
 
-將數值保留小數點後 K 位數
+### 將數值保留小數點後 K 位數
 語法：
 
 ```typescript
